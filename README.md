@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AMD_Compatible-No_CUDA-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="AMD Compatible" />
+  <img src="https://img.shields.io/badge/AMD-Compatible-ED1C24?style=flat-square&logo=amd&logoColor=white" alt="AMD Compatible" />
   <img src="https://img.shields.io/badge/Features-27-blueviolet?style=flat-square" alt="27 Features" />
   <img src="https://img.shields.io/badge/API_Endpoints-16-informational?style=flat-square" alt="16 Endpoints" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT" />
@@ -282,12 +282,11 @@ FPOCKET_TIMEOUT_SECONDS=120
 
 ## AMD Compatibility
 
-| Aspect    | Details                                                                                                         |
-| --------- | --------------------------------------------------------------------------------------------------------------- |
-| 🖥️ CPU    | All backend compute (BioPython parsing, fpocket Voronoi tessellation, API orchestration) runs on AMD processors |
-| 🎮 GPU    | 3Dmol.js renders via WebGL — works natively on AMD Radeon GPUs                                                  |
-| 🚫 CUDA   | Zero NVIDIA/CUDA dependency — fully AMD-compatible                                                              |
-| 🔮 Future | Architecture supports local LLM via AMD ROCm                                                                    |
+| Aspect | Details                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------- |
+| 🖥️ CPU | All backend compute (BioPython parsing, fpocket Voronoi tessellation, API orchestration) runs on AMD processors |
+| 🎮 GPU | 3Dmol.js renders via WebGL — works natively on AMD Radeon GPUs                                                  |
+| Future | Architecture supports local LLM via AMD ROCm                                                                    |
 
 ---
 

@@ -1,0 +1,27 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/uploads/
+backend/data/
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE / Agent
+.vscode/
+.idea/
+.agent/
+.claude/
+.codex/
+.copilot/
+.github/
+*.code-workspace
+
+
+# OS
+.DS_Store
+Thumbs.db
