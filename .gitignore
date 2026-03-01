@@ -6,6 +6,7 @@ backend/*.pyc
 backend/uploads/
 backend/data/
 backend/.env
+backend/.env.example
 
 # Node
 frontend/node_modules/
